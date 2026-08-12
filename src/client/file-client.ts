@@ -54,6 +54,21 @@ export class FileClient {
     return response.data;
   }
 
+  /**
+   * Create a directory, including any missing parents.
+   *
+   * Idempotent: creating an existing directory succeeds and leaves its
+   * contents untouched.
+   */
+  async createDirectory(path: string): Promise<Success> {
+    const response = await this.client.post<Success>(
+      '/api/file/create_directory',
+      undefined,
+      { params: { path } }
+    );
+    return response.data;
+  }
+
   async downloadFile(path: string): Promise<ArrayBuffer> {
     const response = await this.client.get<ArrayBuffer>('/api/file/download', {
       params: { path },

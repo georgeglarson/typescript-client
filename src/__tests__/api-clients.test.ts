@@ -2147,6 +2147,26 @@ describe('Auxiliary API clients', () => {
     );
   });
 
+  it('FileClient creates a directory', async () => {
+    global.fetch = jest.fn().mockResolvedValueOnce(
+      new Response(JSON.stringify({ success: true }), {
+        status: 200,
+        headers: { 'content-type': 'application/json' },
+      })
+    );
+
+    const client = new FileClient({ host: 'http://example.com' });
+    await expect(client.createDirectory('/workspace/new folder')).resolves.toEqual({
+      success: true,
+    });
+
+    expect(global.fetch).toHaveBeenNthCalledWith(
+      1,
+      'http://example.com/api/file/create_directory?path=%2Fworkspace%2Fnew+folder',
+      expect.objectContaining({ method: 'POST' })
+    );
+  });
+
   it('FileClient forwards includeHidden to the home and search_subdirs endpoints', async () => {
     global.fetch = jest
       .fn()
