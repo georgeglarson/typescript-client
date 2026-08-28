@@ -1,0 +1,24 @@
+.github/scripts/post-endpoint-audit-report.cjs
+  s_446b6a33d13a25::t_809e6461ca639d 98-111,119-133,150
+.github/workflows/endpoint-audit.yml
+  s_446b6a33d13a25::t_cfc6fac4832827 50-62
+scripts/test-endpoint-audit.mjs
+  s_446b6a33d13a25::t_cd9fbc3e6e5e7f 17-60,159-160,179-244
+  s_446b6a33d13a25::t_fa7abacb73cf43 245
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "f6309444c3692ef031ac591e5801e6dd407c31da",
+  "prompts": {},
+  "sessions": {
+    "s_446b6a33d13a25": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e497dfa3-1bb1-42e8-86f4-0bf65e5f8d36",
+        "model": "claude-opus-5"
+      },
+      "human_author": "george larson <george.g.larson@gmail.com>"
+    }
+  }
+}
