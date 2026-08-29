@@ -1,0 +1,36 @@
+.github/workflows/npm-publish.yml
+  s_554db71442e899::t_abbf85319b4f16 46
+  s_554db71442e899::t_b8304ef369da6f 41,50-54
+.github/workflows/agent-server-sdk-main-audit.yml
+  s_554db71442e899::t_abbf85319b4f16 67,70
+.github/workflows/publish-github-packages.yml
+  s_554db71442e899::t_abbf85319b4f16 36
+.nvmrc
+  s_554db71442e899::t_437ad928669801 1
+.github/workflows/ci.yml
+  s_554db71442e899::t_abbf85319b4f16 17,20,39,42,61,64,90,93,116,119
+CONTRIBUTING.md
+  s_554db71442e899::t_b8304ef369da6f 11
+.github/workflows/endpoint-audit.yml
+  s_554db71442e899::t_df208a5a654f6a 26
+  s_554db71442e899::t_abbf85319b4f16 29
+.github/workflows/integration-tests.yml
+  s_554db71442e899::t_abbf85319b4f16 32,162
+  s_554db71442e899::t_df208a5a654f6a 29,159
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "85c4b42edf76fd5f21b2ad77fcab4cc7cd3dd9d7",
+  "prompts": {},
+  "sessions": {
+    "s_554db71442e899": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9c666006-853f-457a-99de-3797eee1bc1c",
+        "model": "claude-opus-5"
+      },
+      "human_author": "george larson <george.g.larson@gmail.com>"
+    }
+  }
+}
