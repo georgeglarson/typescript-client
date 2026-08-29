@@ -1,0 +1,26 @@
+package.json
+  s_554db71442e899::t_159590bac67f07 90
+src/events/bash-websocket-client.ts
+  s_554db71442e899::t_6537528da6761d 8-12
+src/events/websocket-client.ts
+  s_554db71442e899::t_6537528da6761d 7-8,10-18
+src/__tests__/package-import.test.ts
+  s_554db71442e899::t_868c27227449e0 14-16,18-22,30-34,37-42,47,55,61,73,76,88-90,119,121-149,153-156,159
+  s_554db71442e899::t_dff6f3ce865477 91-94,96-112,115-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "5393432dfffa050d03602f6aa2092b017def8720",
+  "prompts": {},
+  "sessions": {
+    "s_554db71442e899": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9c666006-853f-457a-99de-3797eee1bc1c",
+        "model": "claude-opus-5"
+      },
+      "human_author": "george larson <george.g.larson@gmail.com>"
+    }
+  }
+}
