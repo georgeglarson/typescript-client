@@ -1,0 +1,19 @@
+package.json
+  s_554db71442e899::t_f3d5f76fe03d5d 9-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "fe2aa88c116653e798b28ff912562e23e45e863b",
+  "prompts": {},
+  "sessions": {
+    "s_554db71442e899": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9c666006-853f-457a-99de-3797eee1bc1c",
+        "model": "claude-opus-5"
+      },
+      "human_author": "george larson <george.g.larson@gmail.com>"
+    }
+  }
+}
